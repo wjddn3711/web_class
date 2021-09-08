@@ -47,6 +47,9 @@ public class basic {
 		String a = "Hello Java";
 		System.out.println(a.indexOf("Java"));
 		
+		// replaceAll
+		
+		
 		
 		
 	}
