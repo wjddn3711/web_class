@@ -103,7 +103,7 @@ public class Some {
         Random rand = new Random();
         int computer = rand.nextInt(3);
         computer += 1; // 컴퓨터는 0~2 까지의 난수이기 때문에 +1 을 하여 1~3 이 되도록 설정한다
-        System.out.println("가위:1, 바위:2, 보:3 를 입력하세요: ");
+        System.out.print("가위:1, 바위:2, 보:3 를 입력하세요: ");
         int user = sc.nextInt();
         // if 나 switch 를 통해 가위 바위 보 인지 문자열을 출력 할 수는 있지만 문제의 요구가 아니라 생각되어 숫자로 표기 하였습니다
         System.out.println("당신은 " + user + " 입니다\n컴퓨터는 " + computer + " 입니다");
@@ -116,13 +116,13 @@ public class Some {
                 System.out.println("당신이 이겼습니다");
                 break;
             case -2:
-                System.out.println("당신이 졌습니다");
+                System.out.println("컴퓨터가 이겼습니다");
                 break;
             case 0:
                 System.out.println("비겼습니다");
                 break;
             case 1:
-                System.out.println("당신이 졌습니다");
+                System.out.println("컴퓨터가 이겼습니다");
                 break;
             case 2:
                 System.out.println("당신이 이겼습니다");
