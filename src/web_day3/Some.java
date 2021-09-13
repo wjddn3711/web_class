@@ -1,3 +1,5 @@
+package web_day3;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -5,8 +7,8 @@ public class Some {
     public static void main(String[] args) {
         // if - else if
         /*
-         * if (조건식) { 수행 구문 } else if(조건식) }{ 수행 구문 }.... else:{ 수행 구문 } 첫번째 조건식부터 순서대로
-         * 평가해서 참인 조건식을 만나면 그 행당 블럭만 수행하고 벗어난다
+         * // * if (조건식) { 수행 구문 } else if(조건식) }{ 수행 구문 }.... else:{ 수행 구문 } 첫번째 조건식부터
+         * 순서대로 // * 평가해서 참인 조건식을 만나면 그 행당 블럭만 수행하고 벗어난다
          * 
          */
         // int score = 0;
@@ -110,24 +112,18 @@ public class Some {
         int key = computer - user; // 컴퓨터 가 주체이며 컴퓨터가 더 큰 경우는 차가 1, 2 인 경우인데
         // ex) case 1: com=3, user=1, key=2, user wins case 2: com=2, user=1, key=1, com
         // wins 경우의 수를 보자면 총 다섯가지 경우가 있다
-
         switch (key) {
             case -1:
-                System.out.println("당신이 이겼습니다");
-                break;
-            case -2:
-                System.out.println("컴퓨터가 이겼습니다");
-                break;
-            case 0:
-                System.out.println("비겼습니다");
-                break;
-            case 1:
-                System.out.println("컴퓨터가 이겼습니다");
-                break;
             case 2:
                 System.out.println("당신이 이겼습니다");
                 break;
+            case -2:
+            case 1:
+                System.out.println("컴퓨터가 이겼습니다");
+                break;
+            default: // 위의 경우가 모두 아닌 경우, 즉 key==0 과 같다
+                System.out.println("비겼습니다");
+                break;
         }
-
     }
 }
