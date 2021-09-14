@@ -1,5 +1,6 @@
 package web_day4;
 
+import java.lang.ProcessBuilder.Redirect.Type;
 import java.util.Scanner;
 
 public class For {
@@ -39,7 +40,8 @@ public class For {
         // System.out.printf("%d * %d = %d\n", i, j, i * j);
         // }
         // }
-            
-        
+        Scanner sc = new Scanner(System.in);
+        String a = sc.next();
+
     }
 }
