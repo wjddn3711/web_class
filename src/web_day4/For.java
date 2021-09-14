@@ -39,19 +39,7 @@ public class For {
         // System.out.printf("%d * %d = %d\n", i, j, i * j);
         // }
         // }
-
-        Scanner sc = new Scanner(System.in);
-        String n = sc.next();
-        System.out.println(n);
-        int sum = 0;
-        int i = n.length() - 1;
-        System.out.println(i);
-        while (i != 0) {
-            sum += n.charAt(i);
-
-            System.out.println(n.charAt(i));
-            i--;
-        }
-        System.out.println(sum);
+            
+        
     }
 }

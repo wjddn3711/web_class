@@ -20,6 +20,7 @@ public class exercise {
 		// System.out.println();
 		// }
 		// }
+		System.out.println("==========1-5==========");
 
 		// 2-2 2개의 변수 x와 y의 평균을 구하자. x와 y에는 적당한 값을 대입하여 사용
 		// int x = 67;
@@ -41,10 +42,15 @@ public class exercise {
 
 		// 2-7 키보드에서 입력한 정숫값에서 마지막 자릿수를 제외한 값과 마지막 자릿수 값만 표시하는 프로그램을 작성
 		System.out.print("정숫값:");
-		String num = sc.next(); // 숫자를 문자열 형태로 저장
-		int len = num.length();
-		System.out.printf("마지막 자릿수를 제외한 값은 %s입니다.\n", num.substring(0, len - 1));
-		System.out.printf("마지막 자릿수는 %s입니다", num.charAt(len - 1));
+		// String num = sc.next(); // 숫자를 문자열 형태로 저장
+		// int len = num.length();
+		// System.out.printf("마지막 자릿수를 제외한 값은 %s입니다.\n", num.substring(0, len - 1));
+		// System.out.printf("마지막 자릿수는 %s입니다", num.charAt(len - 1));
+		int num3 = sc.nextInt();
+		int rest = num3 % 10;
+		int result = num3 / 10;
+		System.out.println(rest + " " + result);
+
 		// System.out.print("가위(1), 바위(2), 보(3) 중 하나를 입력하세요>");
 		// Scanner sc = new Scanner(System.in);
 		// int user = sc.nextInt();
@@ -225,22 +231,6 @@ public class exercise {
 		// 숫자를 입력받아서 각 자리수들의 합계를 계산
 		// 12345 => 1+2+3+4+5 => 15 를 출력하는 프로그램 while
 
-		int sum = 0;
-
-		System.out.print("숫자를 입력하세요 >");
-		Scanner sc = new Scanner(System.in);
-		int num = sc.nextInt(); // 12345
-
-		while (num != 0) {
-			sum = sum + num % 10; // 5 4 3 2 1
-			System.out.println(sum);
-
-			num = num / 10;
-			System.out.println(num);
-
-		}
-
-		System.out.println(sum);
 	}
 
 }
