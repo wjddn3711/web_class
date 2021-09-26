@@ -28,17 +28,17 @@ public class Exercise {
         // }
         // System.out.println("\n==========6-1==========\n");
 
-        int[] ar2 = new int[5];
-        for (int i = 0; i < ar2.length; i++) {
-            System.out.printf("a[%d] = ", i);
-            ar2[i] = sc.nextInt();
-        }
-        System.out.println("\n==========6-2==========\n");
+        // int[] ar2 = new int[5];
+        // for (int i = 0; i < ar2.length; i++) {
+        //     System.out.printf("a[%d] = ", i);
+        //     ar2[i] = sc.nextInt();
+        // }
+        // System.out.println("\n==========6-2==========\n");
 
         // double[] ar3 = new double[5];
         // for (int i = 0; i < ar3.length; i++) {
-        // ar3[i] = 1.1 * (i + 1);
-        // System.out.printf("a[%d]= %.1f\n", i, ar3[i]);
+        //     System.out.printf("a[%d] = ", i);
+        //     ar3[i] = sc.nextDouble();
         // }
         // System.out.println("\n==========6-3==========\n");
         // System.out.print("요소 수:");
