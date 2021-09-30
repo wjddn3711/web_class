@@ -9,11 +9,11 @@ public class Bouncer {
         Tiger t1 = new Tiger();
         Lion l1 = new Lion();
         Crocodile c1 = new Crocodile();
-
         Bouncer b = new Bouncer();
         b.barkAnimal(t1);
         b.barkAnimal(l1);
         b.barkAnimal(c1);
+
     }
     // barkAnimal 메서드는 입력으로 받은 animal 객체가 tiger클래스의 인스턴스인 경우
     // '어흥' lion 클래스 인경우 '으르렁' 이 출력된다

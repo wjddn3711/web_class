@@ -6,3 +6,4 @@ public class SuperTest {
         c.method();
     }
 }
+

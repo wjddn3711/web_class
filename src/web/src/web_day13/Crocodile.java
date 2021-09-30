@@ -1,6 +1,6 @@
 package web_day13;
 
-public class Crocodile extends Animal implements Predator{
+public class Crocodile extends Predator{
     @Override
     public String getFood() {
         return "tomato";
