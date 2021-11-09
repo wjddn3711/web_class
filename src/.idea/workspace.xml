@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="330c9219-6a1c-4d79-a257-f9a73a6ed1ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_day11/src/web_day11/CaptionTv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_day11/src/web_day11/SmartTv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_day11/src/web_day11/Tv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_day11/src/web_day11/TvTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_day11/web_day11.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/web_day17/SuperObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_day4/For.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_day4/For.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
